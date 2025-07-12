@@ -1,0 +1,37 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Model files
+*.pkl
+*.joblib
+models/*.pkl
+models/*.joblib
+
+# Jupyter/IPython
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+*.env
+*.venv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# CSV and output logs
+*.csv
+*.log
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+*.iml
